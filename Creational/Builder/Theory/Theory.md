@@ -4,7 +4,7 @@ representations.
 
 **Explanation:** When we talk about complex objects, we mean objects with multiple fields/member variables.
 Such objects often require constructors with multiple(more then 3-4) parameters, while some of members might not need to be
-initialised at creation, maybe not at all. Such situations force us to resort to multiple constructors which in turn
+initialized at creation, maybe not at all. Such situations force us to resort to multiple constructors which in turn
 bloats the code(a.k.a [telescoping constructor anti-pattern](https://github.com/BladeScar/HalfAPattern/blob/master/Glossary/TelescopingConstuctor.md)).
 
 **Uses:** Use this pattern
