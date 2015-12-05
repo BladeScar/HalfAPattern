@@ -17,7 +17,7 @@ is to facilitate polymorphism, while the builder is solving the telescoping anti
 of creation of a complex object from that object.
 
 **General UML Structure**
-[alt text](Builder.png "Builder")
+![alt text](Builder.png "Builder")
 
 **Real world examples:**
 
