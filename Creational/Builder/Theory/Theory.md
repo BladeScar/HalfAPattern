@@ -6,12 +6,11 @@ representations.
 Such objects often require constructors with multiple parameters, while some of members might not need to be
 initialised at creation, maybe not at all.
 
-**Uses:** Use this pattern
-* to allow step by step creation of an object(when not all of the components are needed for creation).
-* to allow partial creation(to support different representations of the same general object).
+**Uses:** In general we use this pattern when we want to avoid cluttering the an object with to many 
+constructors.
 
 **General UML Structure**
-[alt text](Builder.png "Builder")
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Builder_UML_class_diagram.svg/500px-Builder_UML_class_diagram.svg.png "Builder")
 
 **Real world examples:**
 
